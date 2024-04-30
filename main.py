@@ -45,7 +45,7 @@ class App:
             )
             current_anecdote_index += 1
 
-        anecdote_timer = time()  # Таймер для обновления анекдотов
+        anecdote_timer = time()  # Таймер для обновления анекдот
         while True:
             current_time = next(timer_gen)
             # Проверяем, прошло ли 15 секунд для обновления анекдотов
